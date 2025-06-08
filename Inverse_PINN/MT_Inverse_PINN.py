@@ -230,7 +230,7 @@ net.apply_output_transform(transform_func)
 data = dde.data.TimePDE(
             geomtime, # Spatial and time domain
             pde, # Partial differential equation
-            [bc_eta1_x, bc_flux_eta1_x, bc_eta2_x, bc_flux_eta2_x, bc_eta1_y, bc_flux_eta1_y, bc_eta2_y, bc_flux_eta2_y, ic_eta1, ic_eta2, observ_eta1, observ_eta2], # Boundary and initial conditions
+            [bc_eta1_x, bc_flux_eta1_x, bc_eta2_x, bc_flux_eta2_x, bc_eta1_y, bc_flux_eta1_y, bc_eta2_y, bc_flux_eta2_y, ic_eta1, ic_eta2, observ_eta1, observ_eta2], # Boundary, initial conditions and observed data
             num_domain=20000, # Number of domain points
             num_boundary=4000, # Number of boundary points
             train_distribution='Hammersley', # Sequence for sampling points
