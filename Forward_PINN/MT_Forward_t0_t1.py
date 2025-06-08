@@ -370,7 +370,7 @@ end_time_data = (ref_data_end_time[:, 0], ref_data_end_time[:, 1], ref_data_end_
 
 
 # ---------------------------------------------------------------------------------------------------------------
-# Plotting the comparison between Reference and PINN results for eta1 and eta2
+# Plotting the comparison between Reference and PINN results for eta1 and eta2.
 # ---------------------------------------------------------------------------------------------------------------
 def plot_comparison(start_time_data, end_time_data, model):
 
